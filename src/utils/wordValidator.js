@@ -1,3 +1,10 @@
+import { WordleGame } from '../components/WordleGame.jsx';
+
+// export function validateWord(word) {
+//   const dictionary = WordleGame();
+//   return dictionary.has(word.toLowerCase());
+// }
+
 /**
  * Valide un mot pour le jeu Wordle
  * @param {string} word - Le mot à valider

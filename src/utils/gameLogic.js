@@ -28,7 +28,7 @@ export function checkGuess(guess, targetWord) {
     for (let i = 0; i < WORD_LENGTH; i++) {
         if (guess[i] === targetWord[i]) {
             result[i] = "green";
-            targetLetters[i] = null; // Marquer comme utilisée
+            targetLetters[i] = null; // Éviter de compter deux fois
         }
     }
 

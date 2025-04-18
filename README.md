@@ -11,7 +11,7 @@
 ## Commandes
 - Démarrer le développement : `npm run dev`
 - Lancer les tests : `npm test`
-- Générer la couverture de code : `npm run test:coverage`
+- Générer la couverture de code : `npm run test:coverage` 
 
 
 

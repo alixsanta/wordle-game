@@ -1,5 +1,9 @@
 import { validateWord } from '../utils/wordValidator.js';
 
+test('should return true for valid word', () => {
+  expect(validateWord('apple')).toBe(true);
+});
+
 describe('Validation des mots pour Wordle', () => {
   // Cas de mots valides
   test('Mots valides sont acceptés', () => {

@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { isValidWord, updateGameState, WORD_LENGTH, MAX_ATTEMPTS } from "../utils/gameLogic";
 
-const dictionary = new Set(["chien", "table", "etape", "chats", "mouru", "boire", "verte", "pomme", "chate", "livre", "gazon", "route", "amour", "boisé", "fleur", "garde", "plage", "ronde", "chute", "riche", "trame", "pitre", "poire", "alpha"]);
+const dictionary = new Set(["hello", "world", "chien", "table", "etape", "chats", "mouru", "boire", "verte", "pomme", "chate", "livre", "gazon", "route", "amour", "boisé", "fleur", "garde", "plage", "ronde", "chute", "riche", "trame", "pitre", "poire", "alpha"]);
 
 const WordleGame = () => {
-    const [targetWord, setTargetWord] = useState("apple"); // Mot à deviner (sera aléatoire)
+    const [targetWord, setTargetWord] = useState("apple"); // Mot à deviner
     const [attempts, setAttempts] = useState([]);
     const [currentGuess, setCurrentGuess] = useState("");
     const [attemptsLeft, setAttemptsLeft] = useState(MAX_ATTEMPTS);
